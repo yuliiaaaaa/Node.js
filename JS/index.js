@@ -105,5 +105,3 @@ function getProp(obj) {
 const cloneUser2=cloneU(user)//клонуєм об'єкт
 cloneUser2.adress.number=101;//змінюємо поле квартири
  console.log(cloneUser2);//бачимо шо об'єкт глибоко склонований
- const os=require("os");
- console.log(os.arch())
